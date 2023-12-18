@@ -31,11 +31,11 @@ cwd <- getwd()
 setwd(cwd)
 
 # Loading functions
-functions.fn <- 'scripts/scDEA_functions.R'
+functions.fn <- '/tools/wg3-sc_pseudobulk_DEA/scripts/scDEA_functions.R'
 print(paste0('Loading functions from: ', functions.fn))
 source(functions.fn)
 
-common_functions.fn <- 'scripts/common_functions.R'
+common_functions.fn <- '/tools/wg3-sc_pseudobulk_DEA/scripts/common_functions.R'
 print(paste0('Loading common functions from: ', common_functions.fn))
 source(common_functions.fn)
 
